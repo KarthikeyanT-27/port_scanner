@@ -41,9 +41,6 @@ Port 25    (smtp      ) → CLOSED
 Scan complete.
 
 📌 Code Snippet
-
-Your script internally uses:
-
 socket → for TCP connection attempts
 
 getservbyport() → to identify service names
