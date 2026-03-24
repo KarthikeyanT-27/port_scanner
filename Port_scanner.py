@@ -8,7 +8,6 @@ def check_port(ip, port):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.settimeout(0.5)
         result = s.connect_ex((ip, port))
-
         try:
             service = socket.getservbyport(port, "tcp")
         except:
